@@ -60,7 +60,7 @@ document.getElementById("action-button-2").addEventListener("click",performActio
 
 function performAction(){
     var xhr=new XMLHttpRequest();
-    xhr.open('POST','http://localhost:8080/CodeConverter/getcode',true);
+    xhr.open('POST','https://codeconverter.herokuapp.com//getcode',true);
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     xhr.onload = function(){
         var comment=xhr.responseText;
