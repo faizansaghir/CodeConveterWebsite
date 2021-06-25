@@ -1,14 +1,3 @@
-document.getElementById("menu-button").addEventListener('click',toggleMenu);
-function toggleMenu(){
-    if(document.getElementById("navbar").style.display=='block'){
-        document.getElementById("navbar").style.display = 'none';
-        document.getElementById("navbar-seperator").style.display = 'none';
-    }
-    else{
-        document.getElementById("navbar").style.display = 'block';
-        document.getElementById("navbar-seperator").style.display = 'block';
-    }
-}
 window.onresize = function(){
     if(window.innerWidth<=668){
         document.getElementById("navbar").style.display = 'none';
