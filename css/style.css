@@ -84,7 +84,7 @@ textarea{
     height: 0px;
     overflow: hidden;
 }
-.action-button-2{
+#action-button-2{
     left: 50%;
     transform: translateX(-50%);
 }

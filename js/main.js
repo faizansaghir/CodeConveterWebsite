@@ -1,13 +1,9 @@
 window.onresize = function(){
     if(window.innerWidth<=668){
-        document.getElementById("navbar").style.display = 'none';
-        document.getElementById("navbar-seperator").style.display = 'none';
         document.getElementById("action-button-2").style.marginTop='10px';
         smallSetMarginActionButton();        
     }
     else{
-        document.getElementById("navbar").style.display = 'block';
-        document.getElementById("navbar-seperator").style.display = 'block';
         setMarginActionButton();
     }
     adjustHeightCommentArea();
