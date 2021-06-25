@@ -84,6 +84,10 @@ textarea{
     height: 0px;
     overflow: hidden;
 }
+.action-button-2{
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media(max-width:668px){
     .sm-col-5{
         width: 41.66%;
